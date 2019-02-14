@@ -25,7 +25,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
 end 
   
 def  add_supply_to_winter_holidays(holiday_hash, supply)
-holiday_supplies["winter"] [:christmas]<<"hats"
+holiday_supplies["winter"]<<"hats"[:christmas] ["new years] [:party]<<"Wreath"
 
 
 end
