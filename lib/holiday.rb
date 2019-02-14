@@ -21,18 +21,16 @@ holiday_supplies =  {
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
-  holiday_supplies["winter"] [:christmas]<<"hats"
+  holiday_supplies[:winter] ["christmas"]<<"hats"
 end 
   
 def add_supply_to_winter_holidays(holiday_hash, supply)
- holiday_supplies["winter"]<<"hats" [:christmas] ["new years] [:party]<<"Wreath"
+ holiday_supplies[:winter] [:christmas]<<"hat" [:new years] ["party"]<<"Wreath"
 end
 
 
 def add_supply_to_memorial_day(holiday_hash, supply)
-
-
-
+ [:spring] ["memorial_day]<<Fireworks
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
@@ -47,13 +45,13 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 def all_supplies_in_holidays(holiday_hash)
-  # iterate through holiday_hash and print items such that your readout resembles:
-  # Winter:
-  #   Christmas: Lights, Wreath
-  #   New Years: Party Hats
-  # Summer:
-  #   Fourth Of July: Fireworks, BBQ
-  # etc.
+   iterate through holiday_hash and print items such that your readout resembles:
+   Winter:
+    Christmas: Lights, Wreath
+     New Years: Party Hats
+  Summer:
+     Fourth Of July: Fireworks, BBQ,
+  chicken
 
 end
 
