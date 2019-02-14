@@ -21,9 +21,12 @@ holiday_supplies =  {
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
-  holiday_supplies["winter"] [:christmas] <<""
-  # add the second argument, which is a supply, to BOTH the
-  # Christmas AND the New Year's arrays
+  holiday_supplies["winter"] [:christmas]<<"hats"
+end 
+  
+def  add_supply_to_winter_holidays(holiday_hash, supply)
+holiday_supplies["winter"] [:christmas]<<"hats"
+
 
 end
 
